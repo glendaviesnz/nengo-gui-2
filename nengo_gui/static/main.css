@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    cursor: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    user-select: none;
+    width: 100%;
+}
+
+/* #main {
+   background: white;
+   flex: 1 1 auto;
+   overflow: hidden;
+   position: relative;
+   } */
+
+#vmiddle {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    position: relative;
+}
+
+div.main {
+    display: flex;
+    flex: 1 1 auto;
+    order: 2;
+}
+
+div.minimap {
+    background: white;
+    border: 2px solid #787878;
+    height: 15%;
+    left: 84.5%;
+    position: absolute;
+    top: 82.5%;
+    width: 15%;
+    z-index: 99999999;
+}

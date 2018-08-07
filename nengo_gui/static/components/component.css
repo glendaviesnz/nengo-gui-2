@@ -1,0 +1,31 @@
+svg.netgraph {
+    text {
+        cursor: default;
+
+        &.component-label {
+            dominant-baseline: text-after-edge;
+            text-anchor: middle;
+        }
+
+        &:active {
+            cursor: move;
+        }
+    }
+
+    rect.overlay {
+        fill: transparent;
+    }
+
+    g.widgets > g:hover {
+        rect.overlay {
+            stroke: gray(40%) {
+                width: 1;
+            };
+        }
+    }
+
+    rect.view {
+        fill: #d9edf7;
+        stroke: #ccc;
+    }
+}

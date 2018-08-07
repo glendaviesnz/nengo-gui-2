@@ -1,0 +1,56 @@
+{
+  "_viz_0": {
+    "cls": "XYValue", 
+    "index_x": 0, 
+    "index_y": 1, 
+    "label_visible": 1, 
+    "obj": "x", 
+    "pos": {
+      "height": 259.0092, 
+      "left": 466.06080000000003, 
+      "top": -68.4726, 
+      "width": 182.31840000000003
+    }, 
+    "ylim": [
+      -1, 
+      1
+    ]
+  }, 
+  "_viz_1": {
+    "cls": "Value", 
+    "label_visible": 1, 
+    "obj": "x", 
+    "pos": {
+      "height": 317.5692, 
+      "left": 445.188, 
+      "top": 527.7786, 
+      "width": 184.3368
+    }, 
+    "ylim": [
+      -1, 
+      1
+    ]
+  }, 
+  "model": {
+    "cls": "Network", 
+    "expanded": true, 
+    "has_layout": true, 
+    "label_visible": true, 
+    "pos": {
+      "height": 280.08759363950963, 
+      "left": 319.46863424757123, 
+      "top": 361.98534956070273, 
+      "width": 280.08759363950963
+    }
+  }, 
+  "x": {
+    "cls": "Ensemble", 
+    "label_visible": true, 
+    "pos": {
+      "height": 150.0, 
+      "left": 12.907131375884092, 
+      "top": 218.1985764939622, 
+      "width": 200.00000000000003
+    }
+  }
+}

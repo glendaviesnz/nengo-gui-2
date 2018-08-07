@@ -1,0 +1,111 @@
+svg.netgraph {
+
+    /* .pointer span { */
+    /*     display: block; */
+    /*     margin: 0; */
+    /*     padding: 0; */
+    /*     text-align: center; */
+    /* } */
+
+    .axes {
+        &:hover {
+            border: 1px solid #888888;
+        }
+
+        text {
+            cursor: default;
+            font-size: 0.8em;
+
+            &:active {
+                cursor: move;
+            }
+        }
+
+        .axis {
+            path {
+                stroke: black {
+                    width: 1;
+                }
+                fill: none;
+            }
+        }
+
+        .crosshairX {
+            text {
+                dominant-baseline: text-before-edge;
+            }
+        }
+
+        .crosshairY {
+            text {
+                dominant-baseline: middle;
+                text-anchor: end;
+            }
+        }
+    }
+
+    circle.last-point {
+        fill-opacity: 0.5;
+    }
+
+    .crosshair {
+        line {
+            stroke: black {
+                width: 0.5;
+            }
+        }
+        text {
+            font-size: 80%;
+            pointer-events: none;
+        }
+    }
+
+    .crosshairX {
+        text {
+            text-anchor: middle;
+        }
+    }
+
+    .crosshairY {
+        text {
+            text-anchor: end;
+        }
+    }
+
+    .legend-item {
+        text {
+            font-size: 80%; /* TODO: global for text? */
+            &.label {
+                text-anchor: start;
+            }
+            &.value {
+                text-anchor: end;
+            }
+        }
+    }
+
+    .line {
+        fill: none;
+        stroke-width: 1.5;
+    }
+
+}
+
+.warning-text {
+    background-color: white;
+    box: {
+        align: center;
+        pack: center;
+    }
+    border: 1px dashed #a94442;
+    color: #a94442;
+    display: flex;
+    margin: {
+        left: 20%;
+        right: auto;
+    }
+    position: absolute;
+    text-align: center;
+    top: 37%;
+    width: 60%;
+}

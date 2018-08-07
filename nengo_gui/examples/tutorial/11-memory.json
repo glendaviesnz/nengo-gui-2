@@ -1,0 +1,89 @@
+{
+  "_viz_0": {
+    "cls": "Slider", 
+    "label_visible": 1, 
+    "obj": "stim_a", 
+    "pos": {
+      "height": 104.34360000000001, 
+      "left": -38.37966, 
+      "top": 286.44, 
+      "width": 34.18428
+    }, 
+    "ylim": [
+      -1, 
+      1
+    ]
+  }, 
+  "_viz_1": {
+    "cls": "Value", 
+    "label_visible": 1, 
+    "obj": "a", 
+    "pos": {
+      "height": 104.34360000000001, 
+      "left": 276.9144, 
+      "top": 84.7968, 
+      "width": 68.3688
+    }, 
+    "ylim": [
+      -1, 
+      1
+    ]
+  }, 
+  "_viz_2": {
+    "cls": "Value", 
+    "label_visible": 1, 
+    "obj": "b", 
+    "pos": {
+      "height": 104.34360000000001, 
+      "left": 525.2076, 
+      "top": 44.10288, 
+      "width": 68.3688
+    }, 
+    "ylim": [
+      -1, 
+      1
+    ]
+  }, 
+  "a": {
+    "cls": "Ensemble", 
+    "label_visible": true, 
+    "pos": {
+      "height": 150.0, 
+      "left": 288.6792452830188, 
+      "top": 300.0, 
+      "width": 56.60377358490565
+    }
+  }, 
+  "b": {
+    "cls": "Ensemble", 
+    "label_visible": true, 
+    "pos": {
+      "height": 150.0, 
+      "left": 515.0943396226415, 
+      "top": 300.0, 
+      "width": 56.60377358490565
+    }
+  }, 
+  "model": {
+    "cls": "Network", 
+    "expanded": true, 
+    "has_layout": true, 
+    "label_visible": true, 
+    "pos": {
+      "height": 392.95389321170364, 
+      "left": 191.23036615790366, 
+      "top": 92.04064616522015, 
+      "width": 392.95389321170364
+    }
+  }, 
+  "stim_a": {
+    "cls": "Node", 
+    "label_visible": true, 
+    "pos": {
+      "height": 120.0, 
+      "left": 73.58490566037736, 
+      "top": 300.0, 
+      "width": 45.283018867924525
+    }
+  }
+}

@@ -1,0 +1,26 @@
+svg.netgraph {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    flex: 1 1 auto;
+    order: 2;
+}
+
+.minimap {
+    border-radius: 10px/60px;
+    height: 100%;
+    opacity: 0.85;
+    position: 'relative';
+    width: 100%;
+
+    line {
+        stroke: black {
+            width: 1px;
+        }
+    }
+}
+
+.recur {
+    fill: none;
+    stroke: black {
+        width: 2px;
+    }
+}

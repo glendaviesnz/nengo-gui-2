@@ -1,0 +1,101 @@
+{
+  "_viz_0": {
+    "cls": "XYValue", 
+    "index_x": 0, 
+    "index_y": 1, 
+    "label_visible": true, 
+    "obj": "x", 
+    "pos": {
+      "height": 98.06400000000001, 
+      "left": 505.7946, 
+      "top": 123.85379999999999, 
+      "width": 64.0296
+    }, 
+    "ylim": [
+      -30, 
+      30
+    ]
+  }, 
+  "_viz_1": {
+    "cls": "Value", 
+    "label_visible": true, 
+    "obj": "x", 
+    "pos": {
+      "height": 108.51777783951248, 
+      "left": 178.91869884718375, 
+      "top": 455.86560465134863, 
+      "width": 110.92322984528519
+    }, 
+    "ylim": [
+      -30, 
+      30
+    ]
+  }, 
+  "_viz_2": {
+    "cls": "XYValue", 
+    "index_x": 1, 
+    "index_y": 2, 
+    "label_visible": true, 
+    "obj": "x", 
+    "pos": {
+      "height": 94.98840000000001, 
+      "left": 495.7788, 
+      "top": 302.97540000000004, 
+      "width": 66.71640000000001
+    }, 
+    "ylim": [
+      -30, 
+      30
+    ]
+  }, 
+  "_viz_3": {
+    "cls": "XYValue", 
+    "index_x": 0, 
+    "index_y": 2, 
+    "label_visible": true, 
+    "obj": "x", 
+    "pos": {
+      "height": 89.5218, 
+      "left": 507.3618, 
+      "top": 483.8046, 
+      "width": 59.776140000000005
+    }, 
+    "ylim": [
+      -30, 
+      30
+    ]
+  }, 
+  "_viz_4": {
+    "cls": "Raster", 
+    "label_visible": true, 
+    "obj": "x", 
+    "pos": {
+      "height": 68.33040907684762, 
+      "left": 175.56446067254282, 
+      "top": 93.22200000000001, 
+      "width": 117.445433737378
+    }
+  }, 
+  "model": {
+    "cls": "Network", 
+    "expanded": true, 
+    "has_layout": true, 
+    "label_visible": true, 
+    "pos": {
+      "height": 601.897592512698, 
+      "left": -0.6415600364558127, 
+      "top": -0.8838177821806625, 
+      "width": 601.897592512698
+    }
+  }, 
+  "x": {
+    "cls": "Ensemble", 
+    "label_visible": true, 
+    "pos": {
+      "height": 49.741176825822855, 
+      "left": 353.7172355429747, 
+      "top": 269.5550200598891, 
+      "width": 41.13212699058429
+    }
+  }
+}

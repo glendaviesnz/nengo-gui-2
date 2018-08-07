@@ -1,0 +1,86 @@
+:root {
+    --light: gray(94%);
+    --dark: gray(60%);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.debug {
+    height: 100%;
+    width: 100%;
+
+    iframe {
+        border: none;
+        height: calc(100% - 200px); /* 200px for div.debug-controls */
+        width: 100%;
+    }
+
+    &-controls {
+        background-color: var(--light);
+        border: 1px var(--dark) solid {
+            radius: 5px 5px 0 0;
+        }
+        bottom: 0;
+        display: flex;
+        height: 200px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+
+        input {
+            font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        }
+
+        .awesomplete {
+            display: block;
+
+            .visually-hidden {
+                display: none;
+            }
+
+            > ul {
+                font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+                top: 38px;
+            }
+        }
+
+        .btn {
+            margin-bottom: 4px;
+            .caret {
+                margin-left: 4px;
+            }
+        }
+
+        .btn-block + .btn-block {
+            margin-top: 0;
+        }
+
+        .control-group {
+            display: flex;
+            border-right: 1px var(--dark) solid;
+            flex-direction: column;
+            padding: {
+                left: 8px;
+                right: 8px;
+                top: 8px;
+            }
+
+            p {
+                display: inline-block;
+            }
+
+            /* &.meta { */
+            /*     width: 60px; */
+            /* } */
+
+            &.last {
+                border-right: none;
+                flex-grow: 1;
+            }
+        }
+    }
+}
